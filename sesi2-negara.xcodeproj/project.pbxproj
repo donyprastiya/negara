@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F241A897FB0C4CE44480747 /* Pods_sesi2_negara_sesi2_negaraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F46A3B8F1D700AD256F89B9 /* Pods_sesi2_negara_sesi2_negaraUITests.framework */; };
+		62E3534C922FDA57594F1FE5 /* Pods_sesi2_negaraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A1EEBCF03F43E296E88C5F /* Pods_sesi2_negaraTests.framework */; };
+		6C9C6FAAE5B8B53422090F39 /* Pods_sesi2_negara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE815C459C9E1FECBFE22BF4 /* Pods_sesi2_negara.framework */; };
 		CA15566D29B32A81006CF302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15566C29B32A81006CF302 /* AppDelegate.swift */; };
 		CA15566F29B32A81006CF302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15566E29B32A81006CF302 /* SceneDelegate.swift */; };
 		CA15567129B32A81006CF302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15567029B32A81006CF302 /* ViewController.swift */; };
@@ -16,6 +19,11 @@
 		CA15568429B32A83006CF302 /* sesi2_negaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15568329B32A83006CF302 /* sesi2_negaraTests.swift */; };
 		CA15568E29B32A83006CF302 /* sesi2_negaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15568D29B32A83006CF302 /* sesi2_negaraUITests.swift */; };
 		CA15569029B32A83006CF302 /* sesi2_negaraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15568F29B32A83006CF302 /* sesi2_negaraUITestsLaunchTests.swift */; };
+		CA15569E29B32CB5006CF302 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15569D29B32CB5006CF302 /* APIService.swift */; };
+		CA1556A029B32D79006CF302 /* FlagResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15569F29B32D79006CF302 /* FlagResponse.swift */; };
+		CA1556A229B334B3006CF302 /* JSONCodingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1556A129B334B3006CF302 /* JSONCodingKeys.swift */; };
+		CA1556A429B33A01006CF302 /* CountriesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1556A329B33A01006CF302 /* CountriesViewCell.swift */; };
+		CA1556A629B5A1F8006CF302 /* NegaraDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1556A529B5A1F8006CF302 /* NegaraDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01A1EEBCF03F43E296E88C5F /* Pods_sesi2_negaraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sesi2_negaraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B82D4E8E8152701DEB1435 /* Pods-sesi2-negaraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sesi2-negaraTests.release.xcconfig"; path = "Target Support Files/Pods-sesi2-negaraTests/Pods-sesi2-negaraTests.release.xcconfig"; sourceTree = "<group>"; };
+		15996F410FE9FA3DDCD258C6 /* Pods-sesi2-negara-sesi2-negaraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sesi2-negara-sesi2-negaraUITests.release.xcconfig"; path = "Target Support Files/Pods-sesi2-negara-sesi2-negaraUITests/Pods-sesi2-negara-sesi2-negaraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F46A3B8F1D700AD256F89B9 /* Pods_sesi2_negara_sesi2_negaraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sesi2_negara_sesi2_negaraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5727EB1EEAC301416487B9A2 /* Pods-sesi2-negaraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sesi2-negaraTests.debug.xcconfig"; path = "Target Support Files/Pods-sesi2-negaraTests/Pods-sesi2-negaraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82F60366179CBE96D7D4BC02 /* Pods-sesi2-negara-sesi2-negaraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sesi2-negara-sesi2-negaraUITests.debug.xcconfig"; path = "Target Support Files/Pods-sesi2-negara-sesi2-negaraUITests/Pods-sesi2-negara-sesi2-negaraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86C1B3B428A3C6390010468A /* Pods-sesi2-negara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sesi2-negara.release.xcconfig"; path = "Target Support Files/Pods-sesi2-negara/Pods-sesi2-negara.release.xcconfig"; sourceTree = "<group>"; };
+		9BB34F97FBB4B573C63F1316 /* Pods-sesi2-negara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sesi2-negara.debug.xcconfig"; path = "Target Support Files/Pods-sesi2-negara/Pods-sesi2-negara.debug.xcconfig"; sourceTree = "<group>"; };
 		CA15566929B32A81006CF302 /* sesi2-negara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sesi2-negara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA15566C29B32A81006CF302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA15566E29B32A81006CF302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		CA15568929B32A83006CF302 /* sesi2-negaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sesi2-negaraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA15568D29B32A83006CF302 /* sesi2_negaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sesi2_negaraUITests.swift; sourceTree = "<group>"; };
 		CA15568F29B32A83006CF302 /* sesi2_negaraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sesi2_negaraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA15569D29B32CB5006CF302 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CA15569F29B32D79006CF302 /* FlagResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagResponse.swift; sourceTree = "<group>"; };
+		CA1556A129B334B3006CF302 /* JSONCodingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCodingKeys.swift; sourceTree = "<group>"; };
+		CA1556A329B33A01006CF302 /* CountriesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewCell.swift; sourceTree = "<group>"; };
+		CA1556A529B5A1F8006CF302 /* NegaraDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegaraDetailViewController.swift; sourceTree = "<group>"; };
+		EE815C459C9E1FECBFE22BF4 /* Pods_sesi2_negara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sesi2_negara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9C6FAAE5B8B53422090F39 /* Pods_sesi2_negara.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E3534C922FDA57594F1FE5 /* Pods_sesi2_negaraTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F241A897FB0C4CE44480747 /* Pods_sesi2_negara_sesi2_negaraUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +104,13 @@
 		CA15566029B32A81006CF302 = {
 			isa = PBXGroup;
 			children = (
+				CA15569C29B32A8B006CF302 /* services */,
 				CA15566B29B32A81006CF302 /* sesi2-negara */,
 				CA15568229B32A83006CF302 /* sesi2-negaraTests */,
 				CA15568C29B32A83006CF302 /* sesi2-negaraUITests */,
 				CA15566A29B32A81006CF302 /* Products */,
+				CEB6EC5435BF80BD76E972B1 /* Pods */,
+				D7E4F32CB70716AEDB882E12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +130,8 @@
 				CA15566C29B32A81006CF302 /* AppDelegate.swift */,
 				CA15566E29B32A81006CF302 /* SceneDelegate.swift */,
 				CA15567029B32A81006CF302 /* ViewController.swift */,
+				CA1556A329B33A01006CF302 /* CountriesViewCell.swift */,
+				CA1556A529B5A1F8006CF302 /* NegaraDetailViewController.swift */,
 				CA15567229B32A81006CF302 /* Main.storyboard */,
 				CA15567529B32A83006CF302 /* Assets.xcassets */,
 				CA15567729B32A83006CF302 /* LaunchScreen.storyboard */,
@@ -127,6 +157,39 @@
 			path = "sesi2-negaraUITests";
 			sourceTree = "<group>";
 		};
+		CA15569C29B32A8B006CF302 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				CA15569D29B32CB5006CF302 /* APIService.swift */,
+				CA15569F29B32D79006CF302 /* FlagResponse.swift */,
+				CA1556A129B334B3006CF302 /* JSONCodingKeys.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		CEB6EC5435BF80BD76E972B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BB34F97FBB4B573C63F1316 /* Pods-sesi2-negara.debug.xcconfig */,
+				86C1B3B428A3C6390010468A /* Pods-sesi2-negara.release.xcconfig */,
+				82F60366179CBE96D7D4BC02 /* Pods-sesi2-negara-sesi2-negaraUITests.debug.xcconfig */,
+				15996F410FE9FA3DDCD258C6 /* Pods-sesi2-negara-sesi2-negaraUITests.release.xcconfig */,
+				5727EB1EEAC301416487B9A2 /* Pods-sesi2-negaraTests.debug.xcconfig */,
+				06B82D4E8E8152701DEB1435 /* Pods-sesi2-negaraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7E4F32CB70716AEDB882E12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE815C459C9E1FECBFE22BF4 /* Pods_sesi2_negara.framework */,
+				1F46A3B8F1D700AD256F89B9 /* Pods_sesi2_negara_sesi2_negaraUITests.framework */,
+				01A1EEBCF03F43E296E88C5F /* Pods_sesi2_negaraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA15569329B32A83006CF302 /* Build configuration list for PBXNativeTarget "sesi2-negara" */;
 			buildPhases = (
+				B576B805F9E06F2C316EE0EF /* [CP] Check Pods Manifest.lock */,
 				CA15566529B32A81006CF302 /* Sources */,
 				CA15566629B32A81006CF302 /* Frameworks */,
 				CA15566729B32A81006CF302 /* Resources */,
+				E2AC220F0C2F9F7CAE4EB0E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA15569629B32A83006CF302 /* Build configuration list for PBXNativeTarget "sesi2-negaraTests" */;
 			buildPhases = (
+				4B8F192CBF58C8CA601000A7 /* [CP] Check Pods Manifest.lock */,
 				CA15567B29B32A83006CF302 /* Sources */,
 				CA15567C29B32A83006CF302 /* Frameworks */,
 				CA15567D29B32A83006CF302 /* Resources */,
@@ -169,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA15569929B32A83006CF302 /* Build configuration list for PBXNativeTarget "sesi2-negaraUITests" */;
 			buildPhases = (
+				59336DC91DE3C5637BDCFE87 /* [CP] Check Pods Manifest.lock */,
 				CA15568529B32A83006CF302 /* Sources */,
 				CA15568629B32A83006CF302 /* Frameworks */,
 				CA15568729B32A83006CF302 /* Resources */,
+				E9B319B4E16741AB98EAC1DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +321,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B8F192CBF58C8CA601000A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sesi2-negaraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59336DC91DE3C5637BDCFE87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sesi2-negara-sesi2-negaraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B576B805F9E06F2C316EE0EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sesi2-negara-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AC220F0C2F9F7CAE4EB0E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sesi2-negara/Pods-sesi2-negara-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sesi2-negara/Pods-sesi2-negara-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sesi2-negara/Pods-sesi2-negara-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B319B4E16741AB98EAC1DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sesi2-negara-sesi2-negaraUITests/Pods-sesi2-negara-sesi2-negaraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sesi2-negara-sesi2-negaraUITests/Pods-sesi2-negara-sesi2-negaraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sesi2-negara-sesi2-negaraUITests/Pods-sesi2-negara-sesi2-negaraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA15566529B32A81006CF302 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CA15567129B32A81006CF302 /* ViewController.swift in Sources */,
+				CA1556A229B334B3006CF302 /* JSONCodingKeys.swift in Sources */,
 				CA15566D29B32A81006CF302 /* AppDelegate.swift in Sources */,
+				CA1556A029B32D79006CF302 /* FlagResponse.swift in Sources */,
+				CA1556A429B33A01006CF302 /* CountriesViewCell.swift in Sources */,
+				CA15569E29B32CB5006CF302 /* APIService.swift in Sources */,
+				CA1556A629B5A1F8006CF302 /* NegaraDetailViewController.swift in Sources */,
 				CA15566F29B32A81006CF302 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +608,7 @@
 		};
 		CA15569429B32A83006CF302 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB34F97FBB4B573C63F1316 /* Pods-sesi2-negara.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +637,7 @@
 		};
 		CA15569529B32A83006CF302 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C1B3B428A3C6390010468A /* Pods-sesi2-negara.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +666,7 @@
 		};
 		CA15569729B32A83006CF302 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5727EB1EEAC301416487B9A2 /* Pods-sesi2-negaraTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +687,7 @@
 		};
 		CA15569829B32A83006CF302 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B82D4E8E8152701DEB1435 /* Pods-sesi2-negaraTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +708,7 @@
 		};
 		CA15569A29B32A83006CF302 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F60366179CBE96D7D4BC02 /* Pods-sesi2-negara-sesi2-negaraUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +727,7 @@
 		};
 		CA15569B29B32A83006CF302 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15996F410FE9FA3DDCD258C6 /* Pods-sesi2-negara-sesi2-negaraUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

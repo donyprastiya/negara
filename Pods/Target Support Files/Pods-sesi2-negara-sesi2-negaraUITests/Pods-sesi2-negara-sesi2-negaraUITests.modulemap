@@ -1,0 +1,6 @@
+framework module Pods_sesi2_negara_sesi2_negaraUITests {
+  umbrella header "Pods-sesi2-negara-sesi2-negaraUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

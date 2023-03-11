@@ -1,0 +1,6 @@
+framework module Pods_sesi2_negara {
+  umbrella header "Pods-sesi2-negara-umbrella.h"
+
+  export *
+  module * { export * }
+}

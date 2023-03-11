@@ -8,9 +8,14 @@
 import UIKit
 
 class CountriesViewCell: UITableViewCell {
-
+    
+    
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var flag: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
+        flag.layer.cornerRadius = 5
+        flag.layer.borderWidth = 2
         // Initialization code
     }
 
@@ -21,3 +26,5 @@ class CountriesViewCell: UITableViewCell {
     }
 
 }
+
+
